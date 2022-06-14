@@ -25,9 +25,6 @@ public class CreatePieces {
 		case 'K':
 			piece = new King();
 			break;
-		case 'C':
-			piece = new Bishop();
-			break;
 		default:
 			System.out.println("Incorrect piece in input");
 		}
