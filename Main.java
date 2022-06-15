@@ -17,7 +17,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String inp = br.readLine();
 
-		inp=br.readLine();
+
 		if(inp.equals("Moves")){
 			while(inp!=null && inp.trim()!="") {
 				if(inp.trim().equals(""))

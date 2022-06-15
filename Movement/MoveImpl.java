@@ -38,5 +38,7 @@ public class MoveImpl implements Move {
 			pieceObj.move(srcX, srcY, destX, destY, piece);
 	}
 	
+	//alternate movement, check mate, winning logic, castling, pawn to queen conversion
+	//camel movement
+
 	
-}

@@ -27,7 +27,7 @@ public class Pawn extends Piece {
 			return true;
 		}
 		if(Math.abs(srcX-destX)==1 && Math.abs(srcY-destY)==1) {
-//			if(Board.CHESS_BOARD[destX][destY]=="--")
+			if(Board.CHESS_BOARD[destX][destY]=="--")
 			return true;
 		}
 		return false;

@@ -8,28 +8,28 @@ public class Rowcheck {
 		
 		switch(Row) {
 		case 'A':
-			RowNum= 0;
+			RowNum= 1;
 			break;	
 		case 'B':
-			RowNum= 1;
-			break;
-		case 'C':
 			RowNum= 2;
 			break;
-		case 'D':
+		case 'C':
 			RowNum= 3;
 			break;
-		case 'E':
+		case 'D':
 			RowNum= 4;
 			break;
-		case 'F':
+		case 'E':
 			RowNum= 5;
 			break;
-		case 'G':
+		case 'F':
 			RowNum= 6;
 			break;
-		case 'H':
+		case 'G':
 			RowNum= 7;
+			break;
+		case 'H':
+			RowNum= 8;
 			break;
 		default:
 			System.out.println("Invalid Row in input");
