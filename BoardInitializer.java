@@ -5,7 +5,7 @@ public class BoardInitializer {
 	public static void initialize() {
 		
 		String board[][] = {
-                                {"   "," A"," B"," C"," D"," E"," F"," G ","H"},
+        {"   "," A"," B"," C"," D"," E"," F"," G ","H"},
 				{"1  ","BR", "BH", "BC", "BK", "BQ", "BC", "BH", "BR"},
 				{"2  ","BP", "BP", "BP", "BP", "BP", "BP", "BP", "BP"},
 				{"3  ","--", "--", "--", "--", "--", "--", "--", "--"},
