@@ -1,5 +1,6 @@
 package entities;
 
+
 public abstract class Piece {
 
 	private char color;
